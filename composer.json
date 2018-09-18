@@ -1,0 +1,31 @@
+{
+    "name": "sobyte/qcloud-image",
+    "description": "腾讯云 万象优图（Cloud Image） SDK for PHP",
+    "keywords": [
+        "tentcent",
+        "QcloudImage",
+        "sdk"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+    {
+        "name": "Jimmie Liu",
+        "homepage": "http://www.felis.cn"
+    }],
+    "support":
+    {
+        "issues": "https://github.com/sobyte/qcloud-image/issues"
+    },
+    "require":
+    {
+        "php": ">=5.3.3"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Sobyte\\QcloudImage\\": "src/"
+        }
+    }
+}
